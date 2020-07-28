@@ -7,8 +7,8 @@ request = pc.makeRequestRSpec()
 
 tourDescription = \
 """
-This profile provides a two-node set. One node will be the webserver that runs apache web with a public IP, 
-and the other node is an NFS server without a public IP. 
+This profile provides a two-node set. The first node will be called "webserver" and will be used as an apache web server with a public IP.
+The second node will be called "observer" and will be uses as an NFS server without a public IP. 
 """
 #
 # Setup the Tour info with the above description and instructions.
